@@ -37,6 +37,7 @@ def keyPerByte(n):
 				keyscore[m] += 1
 			else:
 				continue
+				
 	for m in range(256):
 		if(keyscore[m] == max(keyscore)):
 			return m
